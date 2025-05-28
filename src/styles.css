@@ -1,0 +1,36 @@
+.app-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(to right, #f7f8fc, #e0ecff);
+}
+
+.chat-container {
+  background: #ffffffcc;
+  border-radius: 15px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.chat-window {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 10px;
+  margin-bottom: 1rem;
+}
+
+.message-user {
+  text-align: right;
+}
+
+.message-bot {
+  text-align: left;
+}
+
+.message-user .rounded {
+  background-color: #d1e7dd;
+  display: inline-block;
+}
+
+.message-bot .rounded {
+  background-color: #e2e3e5;
+  display: inline-block;
+}
